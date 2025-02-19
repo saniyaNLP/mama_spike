@@ -9,7 +9,7 @@ st.set_page_config(
 )
 st.title("Topic Insights")
 
-tab1, tab2 = st.tabs(["Campaign", "IAB Cats" ])
+tab1, tab2 = st.tabs(["Resultant topics for baby food"])
 
 with tab1:
     display_compaign_topics()
