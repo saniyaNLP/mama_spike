@@ -9,9 +9,6 @@ st.set_page_config(
 )
 st.title("Topic Insights")
 
-tab1 = st.tabs(["Resultant topics for baby food"])
-
-with tab1:
-    display_compaign_topics()
+display_compaign_topics()
 
 
